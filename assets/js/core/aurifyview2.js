@@ -371,7 +371,7 @@ async function showTable() {
               unitMultiplier *
               (purityInput / Math.pow(10, purityInput.length)) +
               parseFloat(sellPremium)
-            ).toFixed(2)
+            ).toFixed(0)
           );
           document.getElementById('goldRate2').textContent = AskValue ? AskValue : '0'
         } 
